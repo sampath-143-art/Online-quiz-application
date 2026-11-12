@@ -1,0 +1,35 @@
+
+export const questions = [
+{question:'Which language is used to structure a web page?',options:['Python','HTML','C','SQL'],answer:1,explanation:'HTML defines the structure and content of web pages.'},
+{question:'Which CSS property changes text colour?',options:['font-style','background','color','text-size'],answer:2,explanation:'The color property sets text colour.'},
+{question:'Which keyword declares a block-scoped JavaScript variable?',options:['var','let','print','define'],answer:1,explanation:'let declares a block-scoped variable.'},
+{question:'What does React use to describe the user interface?',options:['Components','Worksheets','Tables only','Servers'],answer:0,explanation:'React interfaces are built from reusable components.'},
+{question:'Which React hook manages component state?',options:['useFetch','useState','useRoute','useStyle'],answer:1,explanation:'useState adds state to a functional component.'},
+{question:'Which symbol is used in an arrow function?',options:['->','=>','<-','==>'],answer:1,explanation:'JavaScript arrow functions use =>.'},
+{question:'Which HTML element creates a hyperlink?',options:['<link>','<a>','<p>','<img>'],answer:1,explanation:'The anchor element creates hyperlinks.'},
+{question:'Which CSS layout is useful for rows and columns?',options:['Flexbox','alert()','localStorage','JSON'],answer:0,explanation:'Flexbox aligns and distributes items in a container.'},
+{question:'Which browser storage persists after closing the browser?',options:['session variable','localStorage','prompt','console'],answer:1,explanation:'localStorage persists key-value data across sessions.'},
+{question:'Which command starts this Vite development server?',options:['npm run dev','python start','react launch','vite install'],answer:0,explanation:'The dev script starts the Vite server.'},
+
+{question:'Which HTML tag is used to display an image?',options:['<image>','<img>','<picture>','<src>'],answer:1,explanation:'The img tag is used to display images.'},
+{question:'Which HTML tag is used to create a paragraph?',options:['<h1>','<p>','<div>','<br>'],answer:1,explanation:'The p tag defines a paragraph.'},
+{question:'Which CSS property changes the background colour?',options:['color','font-size','background-color','border'],answer:2,explanation:'background-color changes the background colour of an element.'},
+{question:'Which CSS property controls text size?',options:['font-size','text-color','font-weight','padding'],answer:0,explanation:'font-size sets the size of text.'},
+{question:'What does CSS stand for?',options:['Computer Style Sheets','Cascading Style Sheets','Creative Style System','Colourful Style Sheets'],answer:1,explanation:'CSS stands for Cascading Style Sheets.'},
+{question:'Which JavaScript function displays a message box?',options:['print()','alert()','display()','show()'],answer:1,explanation:'alert() displays a message box in the browser.'},
+{question:'Which keyword is used to declare a constant in JavaScript?',options:['var','let','const','static'],answer:2,explanation:'const declares a variable that cannot be reassigned.'},
+{question:'Which operator is used for strict equality in JavaScript?',options:['=','==','===','!='],answer:2,explanation:'=== checks both value and data type.'},
+{question:'Which method adds an item to the end of an array?',options:['pop()','push()','shift()','remove()'],answer:1,explanation:'push() adds an element to the end of an array.'},
+{question:'Which method is used to display array elements one by one in React?',options:['map()','filter()','push()','alert()'],answer:0,explanation:'map() is commonly used to render lists in React.'},
+
+{question:'What is JSX in React?',options:['Java Syntax Extension','JavaScript XML','Java XML System','JSON Extension'],answer:1,explanation:'JSX allows us to write HTML-like syntax inside JavaScript.'},
+{question:'Which command creates a new React project using Vite?',options:['npm create vite@latest','npm start react','python create react','vite new project'],answer:0,explanation:'npm create vite@latest creates a new Vite project.'},
+{question:'What is the full form of DOM?',options:['Data Object Model','Document Object Model','Digital Ordinance Model','Document Order Method'],answer:1,explanation:'DOM stands for Document Object Model.'},
+{question:'Which hook is used to perform side effects in React?',options:['useState','useEffect','useColor','useClass'],answer:1,explanation:'useEffect handles side effects in React components.'},
+{question:'What is a React component?',options:['A reusable UI part','A database','A browser','A programming language'],answer:0,explanation:'A component is a reusable part of the user interface.'},
+{question:'Which file extension is commonly used for React JSX files?',options:['.py','.jsx','.java','.sql'],answer:1,explanation:'.jsx is commonly used for files containing JSX code.'},
+{question:'Which command installs project dependencies?',options:['npm install','npm remove','npm close','npm stop'],answer:0,explanation:'npm install installs the dependencies listed in package.json.'},
+{question:'Which HTML tag creates an unordered list?',options:['<ol>','<ul>','<li>','<list>'],answer:1,explanation:'The ul tag creates an unordered list.'},
+{question:'Which CSS property adds space inside an element?',options:['margin','padding','border','display'],answer:1,explanation:'padding adds space between the content and the border.'},
+{question:'What is the purpose of the React useState hook?',options:['To create CSS','To manage state','To connect internet','To create HTML files'],answer:1,explanation:'useState allows functional components to store and update state.'}
+];
